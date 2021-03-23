@@ -1,0 +1,49 @@
+#paymentbg {
+    margin: 0px;
+    padding: 60px 0px;
+    background: #f3f3f3;
+    position: relative;
+}
+#paymentbg .paybox {
+    margin: 0px auto;
+    padding: 20px;
+    background: #fff;
+    width: 100%;
+    max-width: 585px;
+}
+#paymentbg .paybox .label {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#paymentbg .paybox input.own-fild {
+    margin:15px 0;
+    padding: 0px 15px;
+    width: 100%;
+    height: 48px;
+    background: #f3f3f3;
+    border: #dcdcdc solid 1px;
+    border-radius: 5px;
+}
+#paymentbg .paybox .cvv_text {
+    margin: 0px;
+    padding: 12% 0 0;
+    font-size: 16px;
+}
+#paymentbg .paybox input.sendbtn2 {
+    width: 100%;
+    height: 55px;
+    color: #fff;
+    border: none;
+    background: #1e8ae5;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+
+
+@media all and (max-width: 767px){
+	#paymentbg .paybox .cvv_text{padding: 0px;}
+}

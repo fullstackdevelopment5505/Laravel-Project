@@ -1,0 +1,82 @@
+span.select2.select2-container.select2-container--default.select2-container--focus {
+    width: 100% !important;
+}
+span.select2.select2-container.select2-container--default {
+    width: 100% !important;
+}
+
+.gray_back {
+    background: #f3f9ff;
+    padding: 20px 0;
+}
+.advance_search_form .whitebg {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.advance_search_form .whitebg .inner_title {
+    font-size: 15px;
+    font-weight: 700;
+    background: #f8f8f8;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.select2field + .select2-container .select2-selection--multiple {
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: 0 5px;
+}
+.advance_search_form .whitebg .count {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+}
+.advance_search_form .whitebg .actions {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.advance_search_form .whitebg .data_fields {
+    background: #fff;
+    padding: 10px;
+    display: -webkit-box;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+.advance_search_form .whitebg .data_fields .listings_title{
+    text-transform: capitalize;
+    font-size: 12px;
+    padding: 5px;
+    width: 90px;
+    background: #ddd;
+}
+.advance_search_form .whitebg .data_fields .listings{
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+}
+.whitebg .data_fields .listings span {
+    background: #1b86e3;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    display: inline-block;
+    text-transform: capitalize;
+    border-radius: 5px;
+    margin: 3px;
+    height: 28px;
+}
+

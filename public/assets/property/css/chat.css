@@ -1,0 +1,270 @@
+#chatbg {
+    margin: 0px;
+    padding: 60px 0;
+    background: #f3f3f3;
+}
+#chatbg .row.bgnew {
+    background: #fff;
+    border: #ccc solid thin;
+    height: auto;
+}
+
+/*left_chat_box*/
+#chatbg .row.bgnew .left_chat_box {
+    margin: 0px;
+    padding: 0px;
+    background: transparent;
+    border-right: #ccc solid thin;
+}
+#chatbg .row.bgnew .left_chat_box ul.nav.nav-pills {
+    margin: 0px;
+    padding: 0px;
+}
+
+#chatbg .row.bgnew .left_chat_box ul.nav.nav-pills li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    display: -webkit-flex;
+    border-bottom: #fff solid 2px;
+}
+#chatbg .row.bgnew .left_chat_box ul.nav.nav-pills li:last-child{border: none;}
+
+#chatbg .row.bgnew .left_chat_box ul.nav.nav-pills li a {
+    background: #f4f4f4;
+    margin: 0 0 0;
+    padding: 20px 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: -webkit-flex;
+    align-items: -webkit-center;
+    -webkit-justify-content: space-between;
+}
+#chatbg .row.bgnew .left_chat_box ul.nav.nav-pills li a.active{background: #fff;}
+#chatbg .row.bgnew .left_chat_box ul.nav.nav-pills li a .usercontent {
+    max-width: 280px;
+    background: transparent;
+    width: 100%;
+}
+#chatbg .row.bgnew .left_chat_box ul.nav.nav-pills li a .usercontent h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    color: #1b86e3;
+    font-weight: 500;
+}
+#chatbg .row.bgnew .left_chat_box ul.nav.nav-pills li a .usercontent p {
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+#chatbg .row.bgnew .left_chat_box ul.nav.nav-pills li a .usepic {
+    position: relative;
+}
+#chatbg .row.bgnew .left_chat_box ul.nav.nav-pills li a .usepic span {
+    background: #02c864;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: #fff solid 2px;
+}
+#chatbg .row.bgnew .left_chat_box .serh_box {
+    width: 100%;
+    margin: 0px;
+    padding: 0px 10px;
+    min-height: 60px;
+    background: #fff;
+    position: relative;
+    border-bottom: #ccc solid thin;
+}
+#chatbg .row.bgnew .left_chat_box .serh_box input.fldsrch {
+    margin: 0px;
+    padding: 0px 36px;
+    border: none;
+    width: 100%;
+    background: #fff;
+    height: 60px;
+    font-size: 18px;
+}
+#chatbg .row.bgnew .left_chat_box .serh_box input.fldsrch:focus{outline: none;}
+#chatbg .row.bgnew .left_chat_box .serh_box i.fa.fa-search {
+    position: absolute;
+    margin-top: 19px;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    display: block;
+    text-align: center;
+    padding-top: 4px;
+}
+
+
+
+
+
+
+
+
+/*right_chat_box*/
+#chatbg .row.bgnew .right_chat_box {
+    margin: 0px;
+    padding: 0;
+}
+#chatbg .row.bgnew .right_chat_box .heading_title {
+    background: #fff;
+    min-height: 61px;
+    margin: 0px;
+    padding:0px 15px;
+    border-bottom: #ccc solid thin;
+}
+#chatbg .row.bgnew .right_chat_box .tab-content {
+    padding: 15px;
+    margin: 0px;
+}
+#chatbg .row.bgnew .right_chat_box .tab-pane{padding: 12px;}
+#chatbg .row.bgnew .right_chat_box .heading_title ul {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    min-height: 61px;
+    display: flex;
+    align-items: center;
+}
+#chatbg .row.bgnew .right_chat_box .heading_title ul li {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    float: left;
+    font-size: 16px;
+    color: #1e88e5;
+    position: relative;
+}
+#chatbg .row.bgnew .right_chat_box .heading_title ul li h5 {
+    font-size: 16px;
+    margin: 0px 0 0 15px;
+}
+#chatbg .row.bgnew .right_chat_box .heading_title ul li span {
+    background: #00c864;
+    width: 15px;
+    height: 15px;
+    display: block;
+    border-radius: 50%;
+    border: #fff solid 2px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+#chatbg .row.bgnew .right_chat_box .tab-pane .chat_boxs {
+    display: flex;
+    display: -webkit-flex;
+}
+#chatbg .row.bgnew .right_chat_box .tab-pane .chat_boxs .chatcontent {
+    margin: 0px 0 0 15px;
+    padding: 0px;
+    width: 100%;
+    max-width: 320px;
+}
+#chatbg .row.bgnew .right_chat_box .tab-pane .chat_boxs .chatcontent h4 {
+    margin: 0px;
+    padding: 7px;
+    background: #f4f4f4;
+    font-size: 14px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+}
+#chatbg .row.bgnew .right_chat_box .tab-pane .chat_boxs .chatcontent p {
+    margin: 5px 0 0;
+    padding: 0px;
+    font-size: 14px;
+}
+#chatbg .row.bgnew .right_chat_box .tab-pane .chatbox2 {
+    margin-top: 40px;
+    justify-content: flex-end;
+    width: 100%;
+    display: flex;
+}
+#chatbg .row.bgnew .right_chat_box .tab-pane .chatbox3 {margin-top:40px;}
+
+
+#chatbg .row.bgnew .right_chat_box .mesage_box {
+    background: #1b86e3;
+    height: 60px;
+    margin: 0px;
+    padding: 0 15px;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#chatbg .row.bgnew .right_chat_box .mesage_box textarea.area {
+    width: 100%;
+    background: #1b86e3;
+    border: none;
+    padding: 18px 0px;
+    height: 60px;
+    color: #fff;
+}
+#chatbg .row.bgnew .right_chat_box .mesage_box textarea.area::-webkit-input-placeholder{color:#fff;}
+#chatbg .row.bgnew .right_chat_box .mesage_box textarea.area:focus{outline: none;}
+#chatbg .row.bgnew .right_chat_box .mesage_box .m-box {
+    width: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+}
+#chatbg .row.bgnew .right_chat_box .mesage_box .m-box i.fa.fa-paperclip {
+    width: 40px;
+    text-align: left;
+}
+#chatbg .row.bgnew .right_chat_box .mesage_box .sends {
+    background: #fff;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #1b86e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+
+
+
+@media all and (max-width: 991px){
+
+#chatbg .row.bgnew .left_chat_box ul.nav.nav-pills li a .usercontent h2{font-size: 14px;}
+#chatbg .row.bgnew .left_chat_box ul.nav.nav-pills li a .usercontent p{font-size: 14px;}
+#chatbg .row.bgnew .left_chat_box ul.nav.nav-pills li a .usercontent{padding-left: 10px;}
+
+}
+
+
+@media all and (max-width: 767px){
+
+#chatbg{margin-top: 50px;}
+#chatbg .row.bgnew .right_chat_box .mesage_box{position: relative;}
+#chatbg .row.bgnew .left_chat_box ul.nav.nav-pills li a .usercontent{
+	max-width: 100%;
+	padding-left: 25px;
+}
+
+
+}

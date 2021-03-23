@@ -1,0 +1,53 @@
+#banner{
+	position:relative;
+}
+#banner h2{
+	top: 50%;
+  left: 50%;
+  position: absolute;
+  color:#fff;
+  transform: translate(-50%, -50%);
+      font-size: 36px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+#faq{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.head{
+	border:1px solid #ccc;
+	background:#cccccc38;
+}
+.head h2{
+	padding-top:25px;
+	text-align:center;
+}
+.head p{
+	padding-bottom:25px;
+	text-align:center;
+}
+a.accordion-toggle {
+    color: #000 !important;
+    font-size: 22px;	
+}
+.panel-body.mt-2{
+	margin-left:25px;
+}
+
+.tiles 														{display:block; margin:0 0 30px 0; overflow:hidden;}
+.tiles .button 												{color:#fff; display:block; font-weight:bold; overflow:hidden; padding:20px 10px; text-align:center;}
+.tiles .button.blue 										{background:#1f497d; border:2px solid #10253f;}
+.tiles .button.orange 										{background:#f79646; border:2px solid #e46c0a;}
+.tiles .button.green 										{background:#9bbb59; border:2px solid #4f6228;}
+.panel 														{margin-bottom:20px; background-color:#fff; padding: 9px 17 px; border:none; border-radius:0; -webkit-box-shadow:none; box-shadow:none;}
+.panel-group .panel 										{margin-bottom:0; border-radius:0;}
+.panel-group .panel+.panel 									{margin-top:0;}
+.panel-default 												{border:none;}
+.panel-heading 												{padding:20px 15px; border:none; border-radius:0; }
+.panel-default>.panel-heading 								{color:#333; background:none; border:1px solid #ddd;}
+.panel-default>.panel-heading+.panel-collapse>.panel-body 	{border:none;}
+.panel-heading .accordion-toggle:after 						{font-family:'Glyphicons Halflings'; content:"\e114"; float:right; color:grey;}
+.panel-heading .accordion-toggle.collapsed:after 			{content:"\e080";}
+
+

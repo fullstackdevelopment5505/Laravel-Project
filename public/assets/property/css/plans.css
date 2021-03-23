@@ -1,0 +1,171 @@
+.tabs{
+  background-color:#f5f5f5;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+.tabs .tab-pane{
+  margin-left:20px;
+}
+.tabs h3 {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tabs p{
+  font-size:14px;
+}
+.tabs a{
+  font-size:17px;
+  font-family:OpenSans,sans-serif;
+  font-weight:700;
+  color:#000;
+  padding: 2px;
+  display: inline-block;
+}
+.nav-stacked li {
+    text-align: center;
+    padding-top: 15px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.tabs li a.active{
+  color:#fff;
+  font-weight:600;
+  background: #1b86e3;
+  padding:15px;
+  border-radius: 5px;
+}
+.text-cont{
+  border:1px solid #ccc;
+  border-radius: 5px;
+}
+.search1{
+  position: relative;
+  display: flex;
+}
+.in{
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+.nav-stacked{
+  margin-top:15px;
+}
+.col-md-12 .tt{
+  font-family: OpenSans,sans-serif;
+}
+.ph{
+  padding-top: 10px;
+  list-style: none;
+}
+.ph a{
+  color:#1b86e3;
+  font-weight: 500 !important;
+      font-size: 20px;
+}
+.ph i{
+  font-size: 20px;
+      margin-right: 15px;
+}
+.sort{
+  display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-top:15px;
+}
+
+
+
+/* Plans And Pricing Detail Start */
+.col-md-12.bg-w {
+    background: #cccccc6b;
+    padding: 20px;
+    border-radius: 5px;
+}
+.text-cont1 {
+  border: 1px solid #ccc;
+  background:#fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+.links{
+  display: flex;
+  display: -webkit-flex;
+}
+.links a{
+  color: #0d8ee0;
+}
+.pricing{
+  margin-left: 100px;
+}
+.tabs h2{
+  font-size: 35px;
+  margin-top: 11px;
+  margin-bottom: 30px;
+}
+.tabs h6{
+    font-size: 35px;
+    margin-top: 21px;
+    margin-bottom: 15px;
+}
+.summ p{
+    line-height: 26px;
+    font-size: 17px;
+}
+.summ ul li{
+  list-style: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.y-box{
+    background: #fffbc1;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.g-box{
+    background: #cccccc6b;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+table.table.table-bordered {
+    width: 100%;
+    margin: auto;
+}
+.col-md-12.bg-b {
+    background: #e8f4ff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom:0px;
+}
+.bg-b ul li{
+      margin-left: 20px;
+    font-weight: 500;
+    list-style: none;
+    line-height: 29px;
+}
+.summ h5 {
+    font-size: 24px;
+}
+.g-box i{
+      font-size: 32px;
+    padding: 10px;
+}
+/* Plans And Pricing Detail End */

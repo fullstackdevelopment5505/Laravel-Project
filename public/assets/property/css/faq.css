@@ -1,0 +1,112 @@
+#faqbg{
+
+	margin: 0px;
+	padding: 40px 0px;
+	background: #f3f3f3;
+}
+#faqbg h2 {
+    color: #1b86e3;
+    font-size: 26px;
+}
+#faqbg .faqbox {
+    margin: 20px 0 0;
+    padding: 15px;
+    background: #e2f0fd;
+    border: #c1e1ff solid 1px;
+}
+
+#faqbg .faqbox h3 {
+    font-size: 26px;
+    font-weight: 400;
+    color: #494949;
+}
+
+#faqbg .faqbox .faqsrch {
+    margin:10px 0 0;
+    padding: 0px;
+    background: #fff;
+    display: flex;
+}
+
+#faqbg .faqbox .faqsrch span {
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#faqbg .faqbox .faqsrch input.srchfld {
+    margin: 0px;
+    padding: 0;
+    height: 50px;
+    width: 100%;
+    border: none;
+}
+#faqbg .faqbox .faqsrch input.srchfld:focus{outline: none;}
+
+
+
+
+
+#faqbg .accordianb_box {
+    background: transparent;
+    margin: 30px 0px 0px;
+    display: grid;
+    width: 100%;
+}
+#faqbg .accordian {
+    margin: 0 0;
+}
+#faqbg .accordian .accordian-heading {
+    border-bottom: 1px solid #868686;
+    clear: both;
+    float: left;
+    width: 100%;
+    padding: 22px 10px;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #494949;
+    background: #f3f3f3;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+#faqbg .accordian .accordian-heading i.fa.fa-angle-down {
+    display: none;
+}
+#faqbg .accordian .accordian_content {
+    background: #fff;
+    float: left;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    display: none;
+    color: #000;
+}
+#faqbg .accordian .accordian-heading.active_accordian {
+    background: #1b86e3;
+    color: #fff;
+}
+#faqbg .accordian .accordian-heading.active_accordian i.fa.fa-angle-right {
+    display: none;
+}
+#faqbg .accordian .accordian-heading.active_accordian i.fa.fa-angle-down {
+    display: block;
+}
+
+
+
+@media all and (max-width: 991px){
+
+	#faqbg{margin-top: 70px;}
+}

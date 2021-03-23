@@ -1,0 +1,349 @@
+table.newrow tr {
+    background: transparent !important;
+    border-top: transparent solid !important;
+}
+
+table.newrow {
+    text-align: center;
+    width: 100%;
+}
+.proboxes {margin-top: 30px;}
+.table_bottom {margin: 30px 0;}
+
+.pro_white_box{
+
+	margin:25px 0 0;
+	padding: 15px;
+	background: #fff;
+	border-radius: 5px;
+}
+.pro_white_box .pro_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pro_white_box .pro_flex .export_buttons {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    margin-right: 16px;
+}
+.pro_white_box .pro_flex .export_buttons .export {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.pro_white_box .procurementchart img{width: 100%; margin-top: 15px;}
+
+
+.pro_white_box .pro_flex .buttons_pro {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    max-width: 528px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.pro_white_box .pro_flex .dec_title {
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+    color: #333;
+}
+.pro_white_box .pro_flex .mont_button ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.pro_white_box .pro_flex .mont_button ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.pro_white_box .pro_flex .mont_button ul li a {
+    margin: 0px;
+    padding: 12px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #333;
+    background: #EEEEEE;
+}
+.pro_white_box .pro_flex .mont_button ul li a.active {
+    background: #003E71;
+    color: #fff;
+}
+
+.modal-header{
+	background: #232e42 !important;
+}
+.close{
+	color:#fff;
+}
+.modal-header b{
+	color:#fff;
+	font-size:25px;
+}
+.tl h4{
+	font-size:25px;
+}
+
+
+
+.bg_white_table {
+    margin: 0px;
+    background: #fff;
+    padding: 15px;
+}
+.bg_white_table .socname {
+    font-weight: 500;
+    font-size: 22px;
+    padding: 15px 0px;
+}
+
+.recipe {
+    margin: 0px;
+    padding: 15px 0;
+    font-size: 30px;
+    font-weight: 500;
+    color: #28a745;
+}
+
+
+
+
+
+
+/*vehicles-css*/
+.all_vehicle_box .user_box {
+    margin: 0px;
+    background: #fff;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.all_vehicle_box .user_box.inactive::after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 17px;
+    height: 24px;
+    background: #e84052;
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 49% 72%, 0 100%, 0 0);
+    -webkit-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 49% 72%, 0 100%, 0 0);
+}
+.all_vehicle_box .user_box::after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 17px;
+    height: 24px;
+    background: #70cb64;
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 49% 72%, 0 100%, 0 0);
+    -webkit-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 49% 72%, 0 100%, 0 0);
+}
+.all_vehicle_box .user_box .vehicle_up_box {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+}
+.all_vehicle_box .user_box .pic_user img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.all_vehicle_box .user_box .pic_user {
+    width: 100%;
+    max-width: 150px;
+    line-height: 0;
+}
+.all_vehicle_box .user_box .user_details {
+    width: 100%;
+    padding-left: 10px;
+}
+.all_vehicle_box .user_box .user_details .u-name, .all_vehicle_box .user_box .user_details .u-email, .all_vehicle_box .user_box .user_details .u-mob {
+    padding-bottom: 7px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.all_vehicle_box .user_box .user_details .u-name span, .all_vehicle_box .user_box .user_details .u-email span, .all_vehicle_box .user_box .user_details .u-mob span{
+	font-weight: normal;
+    margin-left: 5px;
+}
+
+
+.all_vehicle_box .user_box .driver_details ul {
+    display: flex;
+    justify-content: flex-start;
+    display: -webkit-flex;
+    -webkit-justify-content: flex-start;
+    border-top: 1px solid #dedede;
+    position: relative;
+    top: 10px;
+    margin-right: -10px;
+}
+.all_vehicle_box .user_box .driver_details ul li {
+    padding: 13px 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: capitalize;
+    align-self: center;
+    -webkit-align-self: center;
+}
+.all_vehicle_box .user_box .driver_details ul li:first-child {
+    border-right: #ccc solid thin;
+}
+.all_vehicle_box .user_box .driver_details ul li:last-child{border-right: none;}
+.all_vehicle_box .user_box .driver_details ul li + li {
+    border-right: #ccc solid thin;
+}
+/*vehicles-css-end*/
+
+
+
+
+/*add-vehicle-popup-css*/
+.register_new_user .fld_area.choose_profile {
+    border: none;
+}
+.register_new_user .fld_area {
+    margin-bottom: 20px;
+}
+.register_new_user .fld_area.choose_profile .choose_inner_div {
+    border: 3px dashed #ccc;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.register_new_user .fld_area span {
+    width: 100%;
+    display: block;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.register_new_user .fld_area.choose_profile input {
+    border: none;
+    margin: 0 auto;
+    width: 220px;
+    background: #f1f1f1;
+    padding: 8px;
+    margin-top: 7px;
+}
+.register_new_user .fld_area span {
+    width: 100%;
+    display: block;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.register_new_user .fld_area input {
+    width: 100%;
+    padding: 13px 10px;
+    font-size: 14px;
+    border: 1px solid #d0d0d0;
+    background: #fff;
+    border-radius: 7px;
+}
+.register_new_user .fld_area select {
+    width: 100%;
+    padding: 13px 10px;
+    font-size: 14px;
+    border: 1px solid #d0d0d0;
+    background: #fff;
+    border-radius: 7px;
+    text-transform: capitalize;
+    height: 50px;
+}
+.register_new_user .form_btn {
+    text-align: right;
+}
+.register_new_user .form_btn input {
+    background: -webkit-linear-gradient(#6ed860, #429238);
+    background: -moz-linear-gradient(#6ed860, #429238);
+    background: -o-linear-gradient(#6ed860, #429238);
+    background: -ms-linear-gradient(#6ed860, #429238);
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    width: 100%;
+    max-width: 120px;
+    padding: 14px 12px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+/*add-vehicle-popup-css-end*/
+
+
+
+/*driver-css*/
+.all_driver_box .user_box::after {
+   	display: none;
+}
+/*driver-css-end*/
+
+
+
+@media all and (max-width:1600px){
+
+.all_vehicle_box .user_box .vehicle_up_box{flex-wrap: wrap; -webkit-flex-wrap: wrap; }
+.all_vehicle_box .user_box .user_details{padding-left: 0px; padding-top: 15px;}
+
+}
+
+@media all and (max-width:992px){
+
+.all_vehicle_box .user_box .vehicle_up_box{flex-wrap: wrap; -webkit-flex-wrap: wrap; }
+.all_vehicle_box .user_box .user_details{text-align: center;}
+.all_vehicle_box .user_box .pic_user img{width: auto;}
+.all_vehicle_box .user_box .pic_user{
+	max-width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.all_vehicle_box .user_box .driver_details ul{display: block; margin-right: 0;}
+.all_vehicle_box .user_box .driver_details ul li{border-bottom: #ccc solid thin;}
+.all_vehicle_box .user_box .driver_details ul li:first-child{border-right: none;}
+.all_vehicle_box .user_box .driver_details ul li + li{border-right: none;}
+.all_vehicle_box .user_box .user_details .u-mob span {
+	margin-top: 8px;
+	display: block;
+}
+
+}
+
+@media all and (max-width: 767px){
+
+.pro_white_box .pro_flex .dec_title{width: 100%; text-align: center; padding: 15px 0;}
+.pro_white_box .pro_flex{flex-wrap: wrap;}
+.pro_white_box .pro_flex .buttons_pro{justify-content: center; max-width: 100%;}
+
+.all_vehicle_box .user_box .vehicle_up_box{flex-wrap: wrap; -webkit-flex-wrap: wrap; }
+.all_vehicle_box .user_box .user_details{text-align: center;}
+.all_vehicle_box .user_box .pic_user img{width: auto;}
+.all_vehicle_box .user_box .pic_user{
+	max-width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+}

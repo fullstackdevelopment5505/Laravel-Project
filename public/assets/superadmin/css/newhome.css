@@ -1,0 +1,202 @@
+/*sale-manager-css*/
+.profile_box{
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    background: rgba(0,0,0,0.2) url('../images/profbg.jpg') top center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding:15px;
+}
+.profile-responsive.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.avatar-icon {
+    width: 64px;
+    height: 64px;
+}
+.avatar-icon.rounded {
+    border-radius: .52rem;
+}
+.avatar-icon {
+    border: #fff solid 3px;
+    overflow: hidden;
+}
+.avatar-icon img {
+    width: 100%;
+    height: 100%;
+}
+.menu-header-title {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+}
+.menu-header-subtitle {
+    margin: 5px 0 0;
+    color: #fff;
+    font-size: 14px;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.proflist ul {
+    margin: 0px;
+    padding: 0px;
+}
+.proflist ul li {
+    list-style: none;
+    display: block;
+}
+.proflist ul li .heading {
+    text-align: center;
+    margin: 0px;
+    padding: 22px 15px;
+    border-right: #ccc solid thin;
+    
+}
+.proflist ul li .heading.noborder{border:none;}
+.proflist ul li .heading i {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 12px;
+}
+.proflist ul li .heading h3 {
+    margin: 0;
+    padding: 0px;
+    color: #000;
+    font-size: 16px;
+}
+/*sale-manager-css-end*/
+
+
+
+
+
+
+
+/*tabs*/
+.titlelabel{
+
+	margin: 20px 0 0;
+	padding: 0 0px;
+	height: auto;
+	background:#ccc;
+	border: 1px solid #dee2e6;
+	text-align: center;
+}
+.titlelabel .nav-tabs .nav-link {
+    margin: 0px;
+    padding: 15px 15px;
+    height: 50px;
+    font-size: 18px;
+    background: #1b2331;
+    color: #fff;
+    border: none;
+}
+.titlelabel .nav-tabs .nav-link.active{
+	background: #207bff;
+}
+.progress.progress-bar-xs {
+    height: .3rem;
+}
+.content_tab .widget_content {
+    padding: 15px;
+    margin: 0px;
+    border: 1px solid #dee2e6;
+}
+.content_tab .widget_content .widget_content_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.content_tab .widget_content .widget_content_wrapper .widget_content_left {
+    font-size: 16px;
+    font-weight: 500;
+}
+.content_tab .widget_content .widget_content_wrapper .widget_content_right {
+    font-size: 26px;
+    font-weight: 600;
+    color: #da624a;
+}
+.content_tab .widget_content .sub_panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888;
+}
+/*tabs-end*/
+
+
+
+
+/*side_scrolar*/
+.scroll_container {
+	width: 100%;
+	height: 200px;
+    overflow-x: hidden;
+    padding-right: 12px;
+}
+.scroll_container::-webkit-scrollbar{width: 5px;}
+.scroll_container::-webkit-scrollbar-track{background: #f1f1f1; border-radius: 10px;}
+.scroll_container::-webkit-scrollbar-thumb{background: #207bff; border-radius: 10px;}
+.scroll_container ul {
+    margin: 0px;
+    padding: 0px;
+}
+.scroll_container ul li {
+    list-style: none;
+    display: block;
+    border-bottom: #ccc solid thin;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.scroll_container ul li:last-child{border-bottom: none;}
+.scroll_container ul li .side_wraper {
+    flex: 1;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.scroll_container ul li .side_wraper .side_content_left {
+    margin-right: 20px;
+}
+.scroll_container ul li .side_wraper .side_content_center {}
+.scroll_container ul li .side_wraper .side_content_center .heads {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.scroll_container ul li .side_wraper .side_content_right {
+    margin-left: auto;
+    font-size: 22px;
+    font-weight: 500;
+}
+/*side_scrolar*/
+
+
+
+
+
+
+
+@media all and (max-width: 767px){
+
+	.proflist ul li .heading{border-right: none; border-bottom: #ccc solid thin;}
+}

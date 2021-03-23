@@ -1,0 +1,190 @@
+.top_selling .inside {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.all_properties .inside .title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+.right_area .inside .title, .top_selling .inside .title {
+    font-weight: 600;
+}
+.all_properties .inside .title .list_and_grid {
+    position: relative;
+    right: 0;
+    top: 0;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+.all_properties .inside .title .list_and_grid i.active {
+    background: #207bff;
+    color: #fff;
+    border-color: #135cc5;
+}
+
+.all_properties .inside .title .list_and_grid i {
+    font-size: 24px;
+    margin-left: 4px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 8px;
+    color: #949494;
+}
+.right_area .inside .title, .top_selling .inside .title, .single_box .inside .title {
+    font-size: 20px;
+    color: #6b6b6b;
+    margin-bottom: 13px;
+    text-transform: capitalize;
+}
+.single_box .inside .title {
+    color: #fff;
+}
+.property_box a {
+    color: inherit;
+}
+.property_box .inset {
+    border: 1px solid #dedede;
+    background: #f5f5f5;
+    margin: 0px 0 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding-bottom: 25px;
+    position: relative;
+    .shortDtl{
+        font-size: 13px;
+        margin: 20px 0 0;
+        color: #514848;
+        height: 230px;
+        b{
+            text-transform: uppercase;
+            display: block;
+            font-size: 14px;
+            margin-top: 5px;
+            i.fa {
+                font-size: 22px;
+            }
+        }
+    }    
+}
+.property_box .image_and_bulb {
+    position: relative;
+}
+.property_box .image_and_bulb span {
+    position: absolute;
+    bottom: -52px;
+    left: 15px;
+    max-width: 50px;
+    height: 50px;
+    background: #207bff;
+    padding: 8px;
+    border-radius: 100px;
+    border: 2px solid #fff;
+}
+.property_box .inset .data {
+    padding: 10px 15px;
+    line-height: 24px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.property_box .inset .data2 {
+    padding: 10px 15px;
+    line-height: 24px;
+}
+
+.property_box .inset::after {
+    content: "";
+}
+
+.property_box .inset a.lnkGo {
+    position: absolute;
+    background-image: url(../../../../assets/images/arrow-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 13px;
+    bottom: 10px;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+    background-color: #cacaca;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.all_properties_list .property_box {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.all_properties_list .property_box .inset {
+    display: flex;
+    display: -webkit-flex;
+    padding-bottom: 0px;
+}
+.all_properties_list .property_box .inset .image_and_bulb p {
+    line-height: 0;
+}
+.all_properties_list .property_box .inset .image_and_bulb {
+    max-width: 250px;
+}
+.all_properties_list .property_box .inset .parent_data {
+    width: 100%;
+}
+.all_properties_list .property_box .inset .parent_data .data {
+    margin-top: 10px;
+}
+.all_properties_list .property_box .inset::after {
+    bottom: 15px;
+    right: 15px;
+}
+@media (min-width: 1500px){
+    .single_box .inside {
+        padding: 26px;
+    }
+}
+.dt-buttons{
+    margin-bottom: 0;
+}
+.dt-buttons button.dt-button,  .dt-buttons button.dt-button:active {
+    all: initial;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #ccc !important;
+    background: #f2f2f2 !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    box-shadow: none !important;
+    background-size: 32px !important;
+}
+.dt-buttons button.dt-button.buttons-excel.btn-xs, .dt-buttons button.dt-button.btn-xs:active{
+    width: auto;
+    background: #1b86e3 !important;
+    background-image: none !important;
+    border-radius: 50px;
+    font-family: "Roboto", sans-serif;
+    padding: 7px 15px;
+    height: auto;
+    border: 1px solid rgba(0,123,255,.25) !important;
+    span{
+        color: #fff;
+        i{
+            margin-right: 6px;
+        }
+    }
+}
+.dt-buttons button.dt-button.btn-xs:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25) !important;
+}
+#prospectsLst table.dataTable {
+    display: none;
+}

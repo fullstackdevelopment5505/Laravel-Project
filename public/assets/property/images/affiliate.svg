@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-affiliate">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="affiliate" clip-path="url(#clip-affiliate)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="1920" height="1080" fill="#1b86e3"/>
+    <path id="Path_4" data-name="Path 4" d="M860.526,1569.473s75.789,69.474,15.789,137.368-79.3,209.168,121.935,285.348,413.962-20.842,494.454-62.525,183.408-326.426,174.906-339.786S1492.705,1424.7,1492.705,1424.7s-720.235-104.454-721.45-100.81S743.32,1473.28,743.32,1476.923s60.729,48.583,63.158,57.085S860.526,1569.473,860.526,1569.473Z" transform="matrix(-0.985, 0.174, -0.174, -0.985, 1658.475, 2589.538)" fill="#004b8d"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="1025" height="489" rx="244.5" transform="translate(1158 271)" fill="#004b8d"/>
+  </g>
+</svg>
